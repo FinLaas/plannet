@@ -1,0 +1,2789 @@
+2018-06-21T14:12:15.000Z - normal: Load ~/.CocosCreator/settings.json
+2018-06-21T14:12:15.005Z - normal: checking language setting...
+2018-06-21T14:12:15.006Z - normal: Language: zh
+2018-06-21T14:12:15.996Z - success: protocol editor-framework registered
+2018-06-21T14:12:15.996Z - success: protocol app registered
+2018-06-21T14:12:15.997Z - success: protocol theme registered
+2018-06-21T14:12:15.997Z - success: protocol packages registered
+2018-06-21T14:12:15.997Z - success: protocol unpack registerred
+2018-06-21T14:12:15.998Z - success: protocol disable-commonjs registerred
+2018-06-21T14:12:16.029Z - error: { Error: connect ECONNREFUSED 211.151.21.150:443
+    at Object.exports._errnoException (util.js:1050:11)
+    at exports._exceptionWithHostPort (util.js:1073:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '211.151.21.150',
+  port: 443 }
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/share/login/lib/user.js:1:1441
+    at ClientRequest.Https.request.on.e (/Applications/CocosCreator.app/Contents/Resources/app.asar/share/login/lib/network.js:1:873)
+    at emitOne (events.js:96:13)
+    at ClientRequest.emit (events.js:191:7)
+    at TLSSocket.socketErrorListener (_http_client.js:358:9)
+    at emitOne (events.js:96:13)
+    at TLSSocket.emit (events.js:191:7)
+    at emitErrorNT (net.js:1283:8)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+2018-06-21T14:12:16.039Z - normal: failed to connect login server... skipping login
+2018-06-21T14:12:16.040Z - normal: Check project /Users/limin/PlanetImpact
+2018-06-21T14:12:16.042Z - normal: Initializing Cocos2d
+2018-06-21T14:12:16.338Z - normal: Initializing Asset Database
+2018-06-21T14:12:16.382Z - success: protocol uuid registerred
+2018-06-21T14:12:16.382Z - success: protocol db registerred
+2018-06-21T14:12:16.382Z - success: protocol thumbnail registerred
+2018-06-21T14:12:16.382Z - normal: Loading editor/builtin packages
+2018-06-21T14:12:16.411Z - success: anysdk loaded
+2018-06-21T14:12:16.574Z - success: assets loaded
+2018-06-21T14:12:16.580Z - success: builder loaded
+2018-06-21T14:12:16.583Z - success: cocos-analytics loaded
+2018-06-21T14:12:16.589Z - success: console loaded
+2018-06-21T14:12:16.656Z - success: fb-instant-games loaded
+2018-06-21T14:12:16.662Z - success: hierarchy loaded
+2018-06-21T14:12:16.667Z - success: inspector loaded
+2018-06-21T14:12:16.669Z - success: keystore loaded
+2018-06-21T14:12:16.678Z - success: node-library loaded
+2018-06-21T14:12:16.682Z - success: package-asset loaded
+2018-06-21T14:12:16.684Z - success: preferences loaded
+2018-06-21T14:12:16.688Z - success: project-exporter loaded
+2018-06-21T14:12:16.713Z - success: project-importer loaded
+2018-06-21T14:12:16.718Z - success: project-settings loaded
+2018-06-21T14:12:16.727Z - success: ui-kit loaded
+2018-06-21T14:12:16.734Z - success: ui-grid loaded
+2018-06-21T14:12:16.741Z - success: scene loaded
+2018-06-21T14:12:16.743Z - success: sprite-editor loaded
+2018-06-21T14:12:16.749Z - success: store loaded
+2018-06-21T14:12:16.756Z - success: timeline loaded
+2018-06-21T14:12:16.757Z - normal: Loading builtin packages
+2018-06-21T14:12:16.763Z - success: asset-db-debugger loaded
+2018-06-21T14:12:16.764Z - success: color-picker loaded
+2018-06-21T14:12:16.770Z - success: package-manager loaded
+2018-06-21T14:12:16.771Z - success: qqplay-adapter loaded
+2018-06-21T14:12:16.781Z - success: sdkbox loaded
+2018-06-21T14:12:16.787Z - success: tester loaded
+2018-06-21T14:12:16.793Z - success: ui-kit-preview-extra loaded
+2018-06-21T14:12:16.798Z - success: ui-kit-preview loaded
+2018-06-21T14:12:16.805Z - success: ui-tree loaded
+2018-06-21T14:12:16.810Z - success: weapp-adapter loaded
+2018-06-21T14:12:18.146Z - normal: Initializing project /Users/limin/PlanetImpact
+2018-06-21T14:12:18.150Z - normal: Loading packages
+2018-06-21T14:12:18.157Z - normal: Watching packages
+2018-06-21T14:12:18.320Z - normal: Run Application
+2018-06-21T14:12:19.170Z - success: preview server running at http://localhost:7458
+2018-06-21T14:12:26.597Z - normal: 1.9.2
+2018-06-21T14:24:39.191Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/limin/PlanetImpact/build",
+  "debug": false,
+  "dest": "/Users/limin/PlanetImpact/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.PlanetImpact",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6"
+  ],
+  "sourceMaps": false,
+  "startScene": "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6",
+  "template": "link",
+  "title": "PlanetImpact",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "subContext": "sub-game"
+  },
+  "xxteaKey": "5947e331-7d2c-4b",
+  "zipCompressJs": true,
+  "project": "/Users/limin/PlanetImpact",
+  "projectName": "PlanetImpact",
+  "debugBuildWorker": false
+}
+2018-06-21T14:24:39.209Z - normal: Building /Users/limin/PlanetImpact
+2018-06-21T14:24:39.209Z - normal: Destination /Users/limin/PlanetImpact/build/wechatgame
+2018-06-21T14:24:39.597Z - normal: Delete /Users/limin/PlanetImpact/build/wechatgame/**/*
+2018-06-21T14:25:54.009Z - normal: Compiled project javascript file successfully
+2018-06-21T14:25:54.012Z - normal: Start building assets
+2018-06-21T14:25:54.012Z - normal: Start spawn build-worker
+2018-06-21T14:25:54.969Z - normal: Finish spawn build-worker
+2018-06-21T14:25:54.969Z - normal: Start init build-worker
+2018-06-21T14:25:57.988Z - normal: 1.9.2
+2018-06-21T14:25:58.167Z - normal: Finish init build-worker
+2018-06-21T14:25:58.167Z - normal: Start build-assets in worker
+2018-06-21T14:25:58.469Z - warn: Can not find particle texture in /Users/limin/PlanetImpact/assets/resources/particle_texture.png, plist: /Users/limin/PlanetImpact/assets/resources/StarAnimation.plist
+2018-06-21T14:25:58.794Z - normal: Finish build-assets in worker
+2018-06-21T14:25:58.799Z - normal: Finish building assets
+2018-06-21T14:25:58.818Z - normal: Start building raw assets
+2018-06-21T14:25:58.819Z - normal: Start building plugin scripts
+2018-06-21T14:25:58.881Z - normal: Finish building raw assets
+2018-06-21T14:25:58.887Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-06-21T14:26:00.235Z - normal: Built to "/Users/limin/PlanetImpact/build/wechatgame" successfully
+2018-06-21T14:29:58.748Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/limin/PlanetImpact/build",
+  "debug": false,
+  "dest": "/Users/limin/PlanetImpact/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.PlanetImpact",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6"
+  ],
+  "sourceMaps": false,
+  "startScene": "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6",
+  "template": "link",
+  "title": "PlanetImpact",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "subContext": "sub-game"
+  },
+  "xxteaKey": "5947e331-7d2c-4b",
+  "zipCompressJs": true,
+  "project": "/Users/limin/PlanetImpact",
+  "projectName": "PlanetImpact",
+  "debugBuildWorker": false
+}
+2018-06-21T14:29:58.767Z - normal: Building /Users/limin/PlanetImpact
+2018-06-21T14:29:58.767Z - normal: Destination /Users/limin/PlanetImpact/build/wechatgame
+2018-06-21T14:29:58.769Z - normal: Delete /Users/limin/PlanetImpact/build/wechatgame/**/*
+2018-06-21T14:31:18.152Z - normal: Compiled project javascript file successfully
+2018-06-21T14:31:18.155Z - normal: Start building assets
+2018-06-21T14:31:18.155Z - normal: Start spawn build-worker
+2018-06-21T14:31:19.065Z - normal: Finish spawn build-worker
+2018-06-21T14:31:19.065Z - normal: Start init build-worker
+2018-06-21T14:31:21.861Z - normal: 1.9.2
+2018-06-21T14:31:22.038Z - normal: Finish init build-worker
+2018-06-21T14:31:22.038Z - normal: Start build-assets in worker
+2018-06-21T14:31:22.269Z - warn: Can not find particle texture in /Users/limin/PlanetImpact/assets/resources/particle_texture.png, plist: /Users/limin/PlanetImpact/assets/resources/StarAnimation.plist
+2018-06-21T14:31:22.471Z - normal: Finish build-assets in worker
+2018-06-21T14:31:22.487Z - normal: Finish building assets
+2018-06-21T14:31:22.503Z - normal: Start building raw assets
+2018-06-21T14:31:22.505Z - normal: Start building plugin scripts
+2018-06-21T14:31:22.572Z - normal: Finish building raw assets
+2018-06-21T14:31:22.580Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-06-21T14:31:24.182Z - normal: Built to "/Users/limin/PlanetImpact/build/wechatgame" successfully
+2018-06-21T14:34:27.422Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/limin/PlanetImpact/build",
+  "debug": false,
+  "dest": "/Users/limin/PlanetImpact/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.PlanetImpact",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6"
+  ],
+  "sourceMaps": false,
+  "startScene": "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6",
+  "template": "link",
+  "title": "PlanetImpact",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "subContext": "sub-game"
+  },
+  "xxteaKey": "5947e331-7d2c-4b",
+  "zipCompressJs": true,
+  "project": "/Users/limin/PlanetImpact",
+  "projectName": "PlanetImpact",
+  "debugBuildWorker": false
+}
+2018-06-21T14:34:27.437Z - normal: Building /Users/limin/PlanetImpact
+2018-06-21T14:34:27.437Z - normal: Destination /Users/limin/PlanetImpact/build/wechatgame
+2018-06-21T14:34:27.439Z - normal: Delete /Users/limin/PlanetImpact/build/wechatgame/**/*
+2018-06-21T14:35:50.900Z - normal: Compiled project javascript file successfully
+2018-06-21T14:35:50.902Z - normal: Start building assets
+2018-06-21T14:35:50.902Z - normal: Start spawn build-worker
+2018-06-21T14:35:52.002Z - normal: Finish spawn build-worker
+2018-06-21T14:35:52.002Z - normal: Start init build-worker
+2018-06-21T14:35:55.188Z - normal: 1.9.2
+2018-06-21T14:35:55.394Z - normal: Finish init build-worker
+2018-06-21T14:35:55.394Z - normal: Start build-assets in worker
+2018-06-21T14:35:55.795Z - warn: Can not find particle texture in /Users/limin/PlanetImpact/assets/resources/particle_texture.png, plist: /Users/limin/PlanetImpact/assets/resources/StarAnimation.plist
+2018-06-21T14:35:56.092Z - normal: Finish build-assets in worker
+2018-06-21T14:35:56.102Z - normal: Finish building assets
+2018-06-21T14:35:56.117Z - normal: Start building raw assets
+2018-06-21T14:35:56.118Z - normal: Start building plugin scripts
+2018-06-21T14:35:56.181Z - normal: Finish building raw assets
+2018-06-21T14:35:56.186Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-06-21T14:35:57.856Z - normal: Built to "/Users/limin/PlanetImpact/build/wechatgame" successfully
+2018-06-21T14:36:00.352Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/limin/PlanetImpact/build",
+  "debug": false,
+  "dest": "/Users/limin/PlanetImpact/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.PlanetImpact",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6"
+  ],
+  "sourceMaps": false,
+  "startScene": "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6",
+  "template": "link",
+  "title": "PlanetImpact",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "subContext": "sub-game"
+  },
+  "xxteaKey": "5947e331-7d2c-4b",
+  "zipCompressJs": true,
+  "project": "/Users/limin/PlanetImpact",
+  "projectName": "PlanetImpact",
+  "debugBuildWorker": false
+}
+2018-06-21T14:36:00.363Z - normal: Building /Users/limin/PlanetImpact
+2018-06-21T14:36:00.364Z - normal: Destination /Users/limin/PlanetImpact/build/wechatgame
+2018-06-21T14:36:00.364Z - normal: Delete /Users/limin/PlanetImpact/build/wechatgame/**/*
+2018-06-21T14:36:03.467Z - normal: Compiled project javascript file successfully
+2018-06-21T14:36:03.467Z - normal: Start building assets
+2018-06-21T14:36:03.467Z - normal: Start spawn build-worker
+2018-06-21T14:36:04.414Z - normal: Finish spawn build-worker
+2018-06-21T14:36:04.414Z - normal: Start init build-worker
+2018-06-21T14:36:07.161Z - normal: 1.9.2
+2018-06-21T14:36:07.316Z - normal: Finish init build-worker
+2018-06-21T14:36:07.316Z - normal: Start build-assets in worker
+2018-06-21T14:36:07.568Z - warn: Can not find particle texture in /Users/limin/PlanetImpact/assets/resources/particle_texture.png, plist: /Users/limin/PlanetImpact/assets/resources/StarAnimation.plist
+2018-06-21T14:36:07.836Z - normal: Finish build-assets in worker
+2018-06-21T14:36:07.851Z - normal: Finish building assets
+2018-06-21T14:36:07.858Z - normal: Start building raw assets
+2018-06-21T14:36:07.859Z - normal: Start building plugin scripts
+2018-06-21T14:36:07.909Z - normal: Finish building raw assets
+2018-06-21T14:36:07.914Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-06-21T14:36:08.921Z - normal: Built to "/Users/limin/PlanetImpact/build/wechatgame" successfully
+2018-06-21T14:37:01.938Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/limin/PlanetImpact/build",
+  "debug": false,
+  "dest": "/Users/limin/PlanetImpact/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.PlanetImpact",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6"
+  ],
+  "sourceMaps": false,
+  "startScene": "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6",
+  "template": "link",
+  "title": "PlanetImpact",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "subContext": "sub-game"
+  },
+  "xxteaKey": "5947e331-7d2c-4b",
+  "zipCompressJs": true,
+  "project": "/Users/limin/PlanetImpact",
+  "projectName": "PlanetImpact",
+  "debugBuildWorker": false
+}
+2018-06-21T14:37:01.954Z - normal: Building /Users/limin/PlanetImpact
+2018-06-21T14:37:01.954Z - normal: Destination /Users/limin/PlanetImpact/build/wechatgame
+2018-06-21T14:37:01.956Z - normal: Delete /Users/limin/PlanetImpact/build/wechatgame/**/*
+2018-06-21T14:38:29.954Z - normal: Compiled project javascript file successfully
+2018-06-21T14:38:29.956Z - normal: Start building assets
+2018-06-21T14:38:29.957Z - normal: Start spawn build-worker
+2018-06-21T14:38:30.955Z - normal: Finish spawn build-worker
+2018-06-21T14:38:30.955Z - normal: Start init build-worker
+2018-06-21T14:38:33.855Z - normal: 1.9.2
+2018-06-21T14:38:34.047Z - normal: Finish init build-worker
+2018-06-21T14:38:34.047Z - normal: Start build-assets in worker
+2018-06-21T14:38:34.343Z - warn: Can not find particle texture in /Users/limin/PlanetImpact/assets/resources/particle_texture.png, plist: /Users/limin/PlanetImpact/assets/resources/StarAnimation.plist
+2018-06-21T14:38:34.476Z - normal: Finish build-assets in worker
+2018-06-21T14:38:34.479Z - normal: Finish building assets
+2018-06-21T14:38:34.494Z - normal: Start building raw assets
+2018-06-21T14:38:34.495Z - normal: Start building plugin scripts
+2018-06-21T14:38:34.556Z - normal: Finish building raw assets
+2018-06-21T14:38:34.560Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-06-21T14:38:36.174Z - normal: Built to "/Users/limin/PlanetImpact/build/wechatgame" successfully
+2018-06-21T14:44:38.217Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/limin/PlanetImpact/build",
+  "debug": false,
+  "dest": "/Users/limin/PlanetImpact/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.PlanetImpact",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6"
+  ],
+  "sourceMaps": false,
+  "startScene": "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6",
+  "template": "link",
+  "title": "PlanetImpact",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "subContext": "sub-game"
+  },
+  "xxteaKey": "5947e331-7d2c-4b",
+  "zipCompressJs": true,
+  "project": "/Users/limin/PlanetImpact",
+  "projectName": "PlanetImpact",
+  "debugBuildWorker": false
+}
+2018-06-21T14:44:38.232Z - normal: Building /Users/limin/PlanetImpact
+2018-06-21T14:44:38.232Z - normal: Destination /Users/limin/PlanetImpact/build/wechatgame
+2018-06-21T14:44:38.233Z - normal: Delete /Users/limin/PlanetImpact/build/wechatgame/**/*
+2018-06-21T14:46:09.787Z - normal: Compiled project javascript file successfully
+2018-06-21T14:46:09.789Z - normal: Start building assets
+2018-06-21T14:46:09.790Z - normal: Start spawn build-worker
+2018-06-21T14:46:10.642Z - normal: Finish spawn build-worker
+2018-06-21T14:46:10.642Z - normal: Start init build-worker
+2018-06-21T14:46:13.259Z - normal: 1.9.2
+2018-06-21T14:46:13.409Z - normal: Finish init build-worker
+2018-06-21T14:46:13.409Z - normal: Start build-assets in worker
+2018-06-21T14:46:13.632Z - warn: Can not find particle texture in /Users/limin/PlanetImpact/assets/resources/particle_texture.png, plist: /Users/limin/PlanetImpact/assets/resources/StarAnimation.plist
+2018-06-21T14:46:13.767Z - normal: Finish build-assets in worker
+2018-06-21T14:46:13.771Z - normal: Finish building assets
+2018-06-21T14:46:13.784Z - normal: Start building raw assets
+2018-06-21T14:46:13.785Z - normal: Start building plugin scripts
+2018-06-21T14:46:13.857Z - normal: Finish building raw assets
+2018-06-21T14:46:13.861Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-06-21T14:46:15.551Z - normal: Built to "/Users/limin/PlanetImpact/build/wechatgame" successfully
+2018-06-21T14:48:41.735Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/limin/PlanetImpact/build",
+  "debug": false,
+  "dest": "/Users/limin/PlanetImpact/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.PlanetImpact",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6"
+  ],
+  "sourceMaps": false,
+  "startScene": "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6",
+  "template": "link",
+  "title": "PlanetImpact",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "subContext": "sub-game"
+  },
+  "xxteaKey": "5947e331-7d2c-4b",
+  "zipCompressJs": true,
+  "project": "/Users/limin/PlanetImpact",
+  "projectName": "PlanetImpact",
+  "debugBuildWorker": false
+}
+2018-06-21T14:48:41.751Z - normal: Building /Users/limin/PlanetImpact
+2018-06-21T14:48:41.751Z - normal: Destination /Users/limin/PlanetImpact/build/wechatgame
+2018-06-21T14:48:41.753Z - normal: Delete /Users/limin/PlanetImpact/build/wechatgame/**/*
+2018-06-21T14:50:12.657Z - normal: Compiled project javascript file successfully
+2018-06-21T14:50:12.661Z - normal: Start building assets
+2018-06-21T14:50:12.662Z - normal: Start spawn build-worker
+2018-06-21T14:50:13.714Z - normal: Finish spawn build-worker
+2018-06-21T14:50:13.714Z - normal: Start init build-worker
+2018-06-21T14:50:16.501Z - normal: 1.9.2
+2018-06-21T14:50:16.656Z - normal: Finish init build-worker
+2018-06-21T14:50:16.656Z - normal: Start build-assets in worker
+2018-06-21T14:50:16.890Z - warn: Can not find particle texture in /Users/limin/PlanetImpact/assets/resources/particle_texture.png, plist: /Users/limin/PlanetImpact/assets/resources/StarAnimation.plist
+2018-06-21T14:50:17.178Z - normal: Finish build-assets in worker
+2018-06-21T14:50:17.181Z - normal: Finish building assets
+2018-06-21T14:50:17.197Z - normal: Start building raw assets
+2018-06-21T14:50:17.199Z - normal: Start building plugin scripts
+2018-06-21T14:50:17.310Z - normal: Finish building raw assets
+2018-06-21T14:50:17.316Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-06-21T14:50:18.979Z - normal: Built to "/Users/limin/PlanetImpact/build/wechatgame" successfully
+2018-06-21T14:52:16.305Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/limin/PlanetImpact/build",
+  "debug": false,
+  "dest": "/Users/limin/PlanetImpact/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.PlanetImpact",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6"
+  ],
+  "sourceMaps": false,
+  "startScene": "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6",
+  "template": "link",
+  "title": "PlanetImpact",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "subContext": "sub-game"
+  },
+  "xxteaKey": "5947e331-7d2c-4b",
+  "zipCompressJs": true,
+  "project": "/Users/limin/PlanetImpact",
+  "projectName": "PlanetImpact",
+  "debugBuildWorker": false
+}
+2018-06-21T14:52:16.320Z - normal: Building /Users/limin/PlanetImpact
+2018-06-21T14:52:16.321Z - normal: Destination /Users/limin/PlanetImpact/build/wechatgame
+2018-06-21T14:52:16.322Z - normal: Delete /Users/limin/PlanetImpact/build/wechatgame/**/*
+2018-06-21T14:53:46.903Z - normal: Compiled project javascript file successfully
+2018-06-21T14:53:46.905Z - normal: Start building assets
+2018-06-21T14:53:46.906Z - normal: Start spawn build-worker
+2018-06-21T14:53:47.765Z - normal: Finish spawn build-worker
+2018-06-21T14:53:47.765Z - normal: Start init build-worker
+2018-06-21T14:53:50.588Z - normal: 1.9.2
+2018-06-21T14:53:50.715Z - normal: Finish init build-worker
+2018-06-21T14:53:50.715Z - normal: Start build-assets in worker
+2018-06-21T14:53:50.959Z - warn: Can not find particle texture in /Users/limin/PlanetImpact/assets/resources/particle_texture.png, plist: /Users/limin/PlanetImpact/assets/resources/StarAnimation.plist
+2018-06-21T14:53:51.258Z - normal: Finish build-assets in worker
+2018-06-21T14:53:51.263Z - normal: Finish building assets
+2018-06-21T14:53:51.278Z - normal: Start building raw assets
+2018-06-21T14:53:51.279Z - normal: Start building plugin scripts
+2018-06-21T14:53:51.343Z - normal: Finish building raw assets
+2018-06-21T14:53:51.349Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-06-21T14:53:53.032Z - normal: Built to "/Users/limin/PlanetImpact/build/wechatgame" successfully
+2018-06-21T15:00:36.706Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/limin/PlanetImpact/build",
+  "debug": false,
+  "dest": "/Users/limin/PlanetImpact/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.PlanetImpact",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6"
+  ],
+  "sourceMaps": false,
+  "startScene": "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6",
+  "template": "link",
+  "title": "PlanetImpact",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "subContext": "sub-game"
+  },
+  "xxteaKey": "5947e331-7d2c-4b",
+  "zipCompressJs": true,
+  "project": "/Users/limin/PlanetImpact",
+  "projectName": "PlanetImpact",
+  "debugBuildWorker": false
+}
+2018-06-21T15:00:36.722Z - normal: Building /Users/limin/PlanetImpact
+2018-06-21T15:00:36.722Z - normal: Destination /Users/limin/PlanetImpact/build/wechatgame
+2018-06-21T15:00:36.724Z - normal: Delete /Users/limin/PlanetImpact/build/wechatgame/**/*
+2018-06-21T15:02:12.496Z - normal: Compiled project javascript file successfully
+2018-06-21T15:02:12.498Z - normal: Start building assets
+2018-06-21T15:02:12.498Z - normal: Start spawn build-worker
+2018-06-21T15:02:13.516Z - normal: Finish spawn build-worker
+2018-06-21T15:02:13.516Z - normal: Start init build-worker
+2018-06-21T15:02:16.893Z - normal: 1.9.2
+2018-06-21T15:02:17.060Z - normal: Finish init build-worker
+2018-06-21T15:02:17.060Z - normal: Start build-assets in worker
+2018-06-21T15:02:17.293Z - warn: Can not find particle texture in /Users/limin/PlanetImpact/assets/resources/particle_texture.png, plist: /Users/limin/PlanetImpact/assets/resources/StarAnimation.plist
+2018-06-21T15:02:17.546Z - normal: Finish build-assets in worker
+2018-06-21T15:02:17.549Z - normal: Finish building assets
+2018-06-21T15:02:17.565Z - normal: Start building raw assets
+2018-06-21T15:02:17.567Z - normal: Start building plugin scripts
+2018-06-21T15:02:17.695Z - normal: Finish building raw assets
+2018-06-21T15:02:17.699Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-06-21T15:02:19.401Z - normal: Built to "/Users/limin/PlanetImpact/build/wechatgame" successfully
+2018-06-21T15:05:03.829Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/limin/PlanetImpact/build",
+  "debug": false,
+  "dest": "/Users/limin/PlanetImpact/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.PlanetImpact",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6"
+  ],
+  "sourceMaps": false,
+  "startScene": "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6",
+  "template": "link",
+  "title": "PlanetImpact",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "subContext": "sub-game"
+  },
+  "xxteaKey": "5947e331-7d2c-4b",
+  "zipCompressJs": true,
+  "project": "/Users/limin/PlanetImpact",
+  "projectName": "PlanetImpact",
+  "debugBuildWorker": false
+}
+2018-06-21T15:05:03.846Z - normal: Building /Users/limin/PlanetImpact
+2018-06-21T15:05:03.846Z - normal: Destination /Users/limin/PlanetImpact/build/wechatgame
+2018-06-21T15:05:03.848Z - normal: Delete /Users/limin/PlanetImpact/build/wechatgame/**/*
+2018-06-21T15:05:28.326Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:33449
+2018-06-21T15:05:44.309Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:33465
+2018-06-21T15:06:35.264Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:33474
+2018-06-21T15:06:35.269Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:33476
+2018-06-21T15:06:35.270Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:33477
+2018-06-21T15:06:35.271Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:33478
+2018-06-21T15:06:35.271Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:33479
+2018-06-21T15:06:35.271Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:33480
+2018-06-21T15:06:35.272Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:33481
+2018-06-21T15:06:35.274Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:33482
+2018-06-21T15:06:35.275Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:33483
+2018-06-21T15:06:37.831Z - normal: Compiled project javascript file successfully
+2018-06-21T15:06:37.831Z - normal: Start building assets
+2018-06-21T15:06:37.831Z - normal: Start spawn build-worker
+2018-06-21T15:06:38.683Z - normal: Finish spawn build-worker
+2018-06-21T15:06:38.683Z - normal: Start init build-worker
+2018-06-21T15:06:41.410Z - normal: 1.9.2
+2018-06-21T15:06:41.563Z - normal: Finish init build-worker
+2018-06-21T15:06:41.564Z - normal: Start build-assets in worker
+2018-06-21T15:06:41.815Z - warn: Can not find particle texture in /Users/limin/PlanetImpact/assets/resources/particle_texture.png, plist: /Users/limin/PlanetImpact/assets/resources/StarAnimation.plist
+2018-06-21T15:06:41.984Z - normal: Finish build-assets in worker
+2018-06-21T15:06:41.988Z - normal: Finish building assets
+2018-06-21T15:06:42.003Z - normal: Start building raw assets
+2018-06-21T15:06:42.004Z - normal: Start building plugin scripts
+2018-06-21T15:06:42.066Z - normal: Finish building raw assets
+2018-06-21T15:06:42.070Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-06-21T15:06:43.335Z - normal: Built to "/Users/limin/PlanetImpact/build/wechatgame" successfully
+2018-06-21T15:08:31.462Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/limin/PlanetImpact/build",
+  "debug": false,
+  "dest": "/Users/limin/PlanetImpact/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.PlanetImpact",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6"
+  ],
+  "sourceMaps": false,
+  "startScene": "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6",
+  "template": "link",
+  "title": "PlanetImpact",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "subContext": "sub-game"
+  },
+  "xxteaKey": "5947e331-7d2c-4b",
+  "zipCompressJs": true,
+  "project": "/Users/limin/PlanetImpact",
+  "projectName": "PlanetImpact",
+  "debugBuildWorker": false
+}
+2018-06-21T15:08:31.478Z - normal: Building /Users/limin/PlanetImpact
+2018-06-21T15:08:31.478Z - normal: Destination /Users/limin/PlanetImpact/build/wechatgame
+2018-06-21T15:08:31.479Z - normal: Delete /Users/limin/PlanetImpact/build/wechatgame/**/*
+2018-06-21T15:08:55.617Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:35683
+2018-06-21T15:09:10.591Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:35696
+2018-06-21T15:10:01.780Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:35705
+2018-06-21T15:10:01.783Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:35707
+2018-06-21T15:10:01.784Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:35708
+2018-06-21T15:10:01.784Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:35709
+2018-06-21T15:10:01.784Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:35710
+2018-06-21T15:10:01.785Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:35711
+2018-06-21T15:10:01.788Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:35712
+2018-06-21T15:10:01.788Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:35713
+2018-06-21T15:10:01.788Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:35714
+2018-06-21T15:10:04.319Z - normal: Compiled project javascript file successfully
+2018-06-21T15:10:04.320Z - normal: Start building assets
+2018-06-21T15:10:04.320Z - normal: Start spawn build-worker
+2018-06-21T15:10:05.169Z - normal: Finish spawn build-worker
+2018-06-21T15:10:05.169Z - normal: Start init build-worker
+2018-06-21T15:10:07.841Z - normal: 1.9.2
+2018-06-21T15:10:07.979Z - normal: Finish init build-worker
+2018-06-21T15:10:07.979Z - normal: Start build-assets in worker
+2018-06-21T15:10:08.227Z - warn: Can not find particle texture in /Users/limin/PlanetImpact/assets/resources/particle_texture.png, plist: /Users/limin/PlanetImpact/assets/resources/StarAnimation.plist
+2018-06-21T15:10:08.377Z - normal: Finish build-assets in worker
+2018-06-21T15:10:08.380Z - normal: Finish building assets
+2018-06-21T15:10:08.394Z - normal: Start building raw assets
+2018-06-21T15:10:08.395Z - normal: Start building plugin scripts
+2018-06-21T15:10:08.459Z - normal: Finish building raw assets
+2018-06-21T15:10:08.465Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-06-21T15:10:09.736Z - normal: Built to "/Users/limin/PlanetImpact/build/wechatgame" successfully
+2018-06-21T15:12:33.117Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/limin/PlanetImpact/build",
+  "debug": false,
+  "dest": "/Users/limin/PlanetImpact/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.PlanetImpact",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6"
+  ],
+  "sourceMaps": false,
+  "startScene": "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6",
+  "template": "link",
+  "title": "PlanetImpact",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "subContext": "sub-game"
+  },
+  "xxteaKey": "5947e331-7d2c-4b",
+  "zipCompressJs": true,
+  "project": "/Users/limin/PlanetImpact",
+  "projectName": "PlanetImpact",
+  "debugBuildWorker": false
+}
+2018-06-21T15:12:33.144Z - normal: Building /Users/limin/PlanetImpact
+2018-06-21T15:12:33.144Z - normal: Destination /Users/limin/PlanetImpact/build/wechatgame
+2018-06-21T15:12:33.145Z - normal: Delete /Users/limin/PlanetImpact/build/wechatgame/**/*
+2018-06-21T15:12:33.152Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/limin/PlanetImpact/build",
+  "debug": false,
+  "dest": "/Users/limin/PlanetImpact/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.PlanetImpact",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6"
+  ],
+  "sourceMaps": false,
+  "startScene": "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6",
+  "template": "link",
+  "title": "PlanetImpact",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "subContext": "sub-game"
+  },
+  "xxteaKey": "5947e331-7d2c-4b",
+  "zipCompressJs": true,
+  "project": "/Users/limin/PlanetImpact",
+  "projectName": "PlanetImpact",
+  "debugBuildWorker": false
+}
+2018-06-21T15:12:33.155Z - normal: Building /Users/limin/PlanetImpact
+2018-06-21T15:12:33.155Z - normal: Destination /Users/limin/PlanetImpact/build/wechatgame
+2018-06-21T15:12:33.155Z - normal: Delete /Users/limin/PlanetImpact/build/wechatgame/**/*
+2018-06-21T15:12:43.629Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:38491
+2018-06-21T15:13:00.850Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:38524
+2018-06-21T15:13:08.517Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:38527
+2018-06-21T15:13:18.884Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:38531
+2018-06-21T15:13:18.889Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:38532
+2018-06-21T15:13:31.909Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:38545
+2018-06-21T15:13:41.057Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:38548
+2018-06-21T15:13:50.826Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:38550
+2018-06-21T15:13:50.827Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:38551
+2018-06-21T15:15:27.382Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:38566
+2018-06-21T15:15:27.388Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:38568
+2018-06-21T15:15:27.390Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:38569
+2018-06-21T15:15:27.390Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:38570
+2018-06-21T15:15:27.391Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:38571
+2018-06-21T15:15:27.391Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:38572
+2018-06-21T15:15:27.391Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:38573
+2018-06-21T15:15:27.392Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:38574
+2018-06-21T15:15:27.392Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:38575
+2018-06-21T15:15:27.393Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:38576
+2018-06-21T15:15:27.393Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:38577
+2018-06-21T15:15:27.394Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:38578
+2018-06-21T15:15:27.394Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:38579
+2018-06-21T15:15:27.394Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:38580
+2018-06-21T15:15:27.395Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:38581
+2018-06-21T15:15:27.395Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:38582
+2018-06-21T15:15:27.396Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:38583
+2018-06-21T15:15:30.855Z - normal: Start building assets
+2018-06-21T15:15:30.855Z - normal: Start spawn build-worker
+2018-06-21T15:15:30.913Z - normal: Compiled project javascript file successfully
+2018-06-21T15:15:30.913Z - normal: Start building assets
+2018-06-21T15:15:30.913Z - normal: Start spawn build-worker
+2018-06-21T15:15:31.828Z - normal: Finish spawn build-worker
+2018-06-21T15:15:31.828Z - normal: Start init build-worker
+2018-06-21T15:15:31.840Z - normal: Finish spawn build-worker
+2018-06-21T15:15:31.840Z - normal: Start init build-worker
+2018-06-21T15:15:34.788Z - normal: 1.9.2
+2018-06-21T15:15:34.841Z - normal: 1.9.2
+2018-06-21T15:15:34.973Z - normal: Finish init build-worker
+2018-06-21T15:15:34.973Z - normal: Start build-assets in worker
+2018-06-21T15:15:35.029Z - normal: Finish init build-worker
+2018-06-21T15:15:35.029Z - normal: Start build-assets in worker
+2018-06-21T15:15:35.277Z - warn: Can not find particle texture in /Users/limin/PlanetImpact/assets/resources/particle_texture.png, plist: /Users/limin/PlanetImpact/assets/resources/StarAnimation.plist
+2018-06-21T15:15:35.349Z - warn: Can not find particle texture in /Users/limin/PlanetImpact/assets/resources/particle_texture.png, plist: /Users/limin/PlanetImpact/assets/resources/StarAnimation.plist
+2018-06-21T15:15:35.477Z - normal: Finish build-assets in worker
+2018-06-21T15:15:35.487Z - normal: Finish building assets
+2018-06-21T15:15:35.501Z - normal: Start building raw assets
+2018-06-21T15:15:35.502Z - normal: Start building plugin scripts
+2018-06-21T15:15:35.505Z - error: Build Failed: Error: Error: ENOENT: no such file or directory, open '/Users/limin/PlanetImpact/build/wechatgame/res/import/6a/6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6.json'
+    at EventEmitter.ipcMain.on.n (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/main/ipc.js:1:6251)
+    at emitThree (events.js:116:13)
+    at EventEmitter.emit (events.js:197:7)
+    at WebContents.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/electron.asar/browser/api/web-contents.js:247:13)
+    at emitTwo (events.js:106:13)
+    at WebContents.emit (events.js:194:7)
+	--------------------
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/build-worker.js:1:3797
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:52:16
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:696:30
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:167:37
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:1209:30
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:52:16
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:322:29
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:44:16
+    at _packAssets (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/group-manager.js:1:4481)
+    at Async.each.e (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/group-manager.js:1:4218)
+    at Async.series.r (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/builder.js:1:3101)
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:726:13
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:52:16
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:264:21
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:44:16
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:723:17
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:167:37
+    at Gulp.doneCallback (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/gulp-build.js:1:21071)
+    at Gulp.Orchestrator.stop (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/orchestrator/index.js:150:9)
+2018-06-21T15:15:35.507Z - normal: Finish build-assets in worker
+2018-06-21T15:15:35.641Z - normal: Finish building raw assets
+2018-06-21T15:15:35.644Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-06-21T15:15:36.961Z - normal: Built to "/Users/limin/PlanetImpact/build/wechatgame" successfully
+2018-06-21T15:18:34.482Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/limin/PlanetImpact/build",
+  "debug": false,
+  "dest": "/Users/limin/PlanetImpact/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.PlanetImpact",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6"
+  ],
+  "sourceMaps": false,
+  "startScene": "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6",
+  "template": "link",
+  "title": "PlanetImpact",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "subContext": "sub-game"
+  },
+  "xxteaKey": "5947e331-7d2c-4b",
+  "zipCompressJs": true,
+  "project": "/Users/limin/PlanetImpact",
+  "projectName": "PlanetImpact",
+  "debugBuildWorker": false
+}
+2018-06-21T15:18:34.498Z - normal: Building /Users/limin/PlanetImpact
+2018-06-21T15:18:34.498Z - normal: Destination /Users/limin/PlanetImpact/build/wechatgame
+2018-06-21T15:18:34.500Z - normal: Delete /Users/limin/PlanetImpact/build/wechatgame/**/*
+2018-06-21T15:18:58.319Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:41997
+2018-06-21T15:19:14.434Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:42013
+2018-06-21T15:20:09.500Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:42022
+2018-06-21T15:20:09.505Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:42024
+2018-06-21T15:20:09.506Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:42025
+2018-06-21T15:20:09.508Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:42026
+2018-06-21T15:20:09.509Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:42027
+2018-06-21T15:20:09.510Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:42028
+2018-06-21T15:20:09.519Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:42029
+2018-06-21T15:20:09.519Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:42030
+2018-06-21T15:20:09.520Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:42031
+2018-06-21T15:20:09.521Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:42032
+2018-06-21T15:20:12.256Z - normal: Compiled project javascript file successfully
+2018-06-21T15:20:12.256Z - normal: Start building assets
+2018-06-21T15:20:12.257Z - normal: Start spawn build-worker
+2018-06-21T15:20:13.178Z - normal: Finish spawn build-worker
+2018-06-21T15:20:13.178Z - normal: Start init build-worker
+2018-06-21T15:20:16.087Z - normal: 1.9.2
+2018-06-21T15:20:16.252Z - normal: Finish init build-worker
+2018-06-21T15:20:16.252Z - normal: Start build-assets in worker
+2018-06-21T15:20:16.499Z - warn: Can not find particle texture in /Users/limin/PlanetImpact/assets/resources/particle_texture.png, plist: /Users/limin/PlanetImpact/assets/resources/StarAnimation.plist
+2018-06-21T15:20:16.651Z - normal: Finish build-assets in worker
+2018-06-21T15:20:16.656Z - normal: Finish building assets
+2018-06-21T15:20:16.671Z - normal: Start building raw assets
+2018-06-21T15:20:16.672Z - normal: Start building plugin scripts
+2018-06-21T15:20:16.736Z - normal: Finish building raw assets
+2018-06-21T15:20:16.744Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-06-21T15:20:18.417Z - normal: Built to "/Users/limin/PlanetImpact/build/wechatgame" successfully
+2018-06-21T15:27:54.490Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/limin/PlanetImpact/build",
+  "debug": false,
+  "dest": "/Users/limin/PlanetImpact/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.PlanetImpact",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6"
+  ],
+  "sourceMaps": false,
+  "startScene": "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6",
+  "template": "link",
+  "title": "PlanetImpact",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "subContext": "sub-game"
+  },
+  "xxteaKey": "5947e331-7d2c-4b",
+  "zipCompressJs": true,
+  "project": "/Users/limin/PlanetImpact",
+  "projectName": "PlanetImpact",
+  "debugBuildWorker": false
+}
+2018-06-21T15:27:54.505Z - normal: Building /Users/limin/PlanetImpact
+2018-06-21T15:27:54.505Z - normal: Destination /Users/limin/PlanetImpact/build/wechatgame
+2018-06-21T15:27:54.506Z - normal: Delete /Users/limin/PlanetImpact/build/wechatgame/**/*
+2018-06-21T15:28:18.663Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:50274
+2018-06-21T15:28:33.912Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:50287
+2018-06-21T15:29:28.333Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:50296
+2018-06-21T15:29:28.337Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:50298
+2018-06-21T15:29:28.337Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:50299
+2018-06-21T15:29:28.338Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:50300
+2018-06-21T15:29:28.338Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:50301
+2018-06-21T15:29:28.339Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:50302
+2018-06-21T15:29:28.339Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:50303
+2018-06-21T15:29:28.339Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:50304
+2018-06-21T15:29:28.340Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:50305
+2018-06-21T15:29:30.915Z - normal: Compiled project javascript file successfully
+2018-06-21T15:29:30.916Z - normal: Start building assets
+2018-06-21T15:29:30.916Z - normal: Start spawn build-worker
+2018-06-21T15:29:31.717Z - normal: Finish spawn build-worker
+2018-06-21T15:29:31.717Z - normal: Start init build-worker
+2018-06-21T15:29:34.493Z - normal: 1.9.2
+2018-06-21T15:29:34.643Z - normal: Finish init build-worker
+2018-06-21T15:29:34.643Z - normal: Start build-assets in worker
+2018-06-21T15:29:34.878Z - warn: Can not find particle texture in /Users/limin/PlanetImpact/assets/resources/particle_texture.png, plist: /Users/limin/PlanetImpact/assets/resources/StarAnimation.plist
+2018-06-21T15:29:34.987Z - normal: Finish build-assets in worker
+2018-06-21T15:29:34.990Z - normal: Finish building assets
+2018-06-21T15:29:35.005Z - normal: Start building raw assets
+2018-06-21T15:29:35.007Z - normal: Start building plugin scripts
+2018-06-21T15:29:35.074Z - normal: Finish building raw assets
+2018-06-21T15:29:35.079Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-06-21T15:29:36.328Z - normal: Built to "/Users/limin/PlanetImpact/build/wechatgame" successfully
+2018-06-21T15:31:29.365Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:52328
+2018-06-21T15:31:29.369Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:52330
+2018-06-21T15:31:59.826Z - error: scene 没有保存，请先保存相关信息再进行构建。
+    at Editor.Ipc.sendToPanel (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/builder/panel/builder.js:1:14928)
+    at EventEmitter.ipcRenderer.on.n (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:4587)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+2018-06-21T15:32:03.726Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/limin/PlanetImpact/build",
+  "debug": false,
+  "dest": "/Users/limin/PlanetImpact/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.PlanetImpact",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6"
+  ],
+  "sourceMaps": false,
+  "startScene": "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6",
+  "template": "link",
+  "title": "PlanetImpact",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "subContext": "sub-game"
+  },
+  "xxteaKey": "5947e331-7d2c-4b",
+  "zipCompressJs": true,
+  "project": "/Users/limin/PlanetImpact",
+  "projectName": "PlanetImpact",
+  "debugBuildWorker": false
+}
+2018-06-21T15:32:03.730Z - normal: Building /Users/limin/PlanetImpact
+2018-06-21T15:32:03.730Z - normal: Destination /Users/limin/PlanetImpact/build/wechatgame
+2018-06-21T15:32:03.731Z - normal: Delete /Users/limin/PlanetImpact/build/wechatgame/**/*
+2018-06-21T15:33:40.020Z - normal: Compiled project javascript file successfully
+2018-06-21T15:33:40.022Z - normal: Start building assets
+2018-06-21T15:33:40.022Z - normal: Start spawn build-worker
+2018-06-21T15:33:40.958Z - normal: Finish spawn build-worker
+2018-06-21T15:33:40.958Z - normal: Start init build-worker
+2018-06-21T15:33:43.605Z - normal: 1.9.2
+2018-06-21T15:33:43.793Z - normal: Finish init build-worker
+2018-06-21T15:33:43.793Z - normal: Start build-assets in worker
+2018-06-21T15:33:44.044Z - warn: Can not find particle texture in /Users/limin/PlanetImpact/assets/resources/particle_texture.png, plist: /Users/limin/PlanetImpact/assets/resources/StarAnimation.plist
+2018-06-21T15:33:44.316Z - normal: Finish build-assets in worker
+2018-06-21T15:33:44.319Z - normal: Finish building assets
+2018-06-21T15:33:44.335Z - normal: Start building raw assets
+2018-06-21T15:33:44.336Z - normal: Start building plugin scripts
+2018-06-21T15:33:44.402Z - normal: Finish building raw assets
+2018-06-21T15:33:44.410Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-06-21T15:33:45.640Z - normal: Built to "/Users/limin/PlanetImpact/build/wechatgame" successfully
+2018-06-21T16:31:31.607Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/limin/PlanetImpact/build",
+  "debug": false,
+  "dest": "/Users/limin/PlanetImpact/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.PlanetImpact",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6"
+  ],
+  "sourceMaps": false,
+  "startScene": "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6",
+  "template": "link",
+  "title": "PlanetImpact",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "subContext": "sub-game"
+  },
+  "xxteaKey": "5947e331-7d2c-4b",
+  "zipCompressJs": true,
+  "project": "/Users/limin/PlanetImpact",
+  "projectName": "PlanetImpact",
+  "debugBuildWorker": false
+}
+2018-06-21T16:31:31.614Z - normal: Building /Users/limin/PlanetImpact
+2018-06-21T16:31:31.615Z - normal: Destination /Users/limin/PlanetImpact/build/wechatgame
+2018-06-21T16:31:31.616Z - normal: Delete /Users/limin/PlanetImpact/build/wechatgame/**/*
+2018-06-21T16:31:55.594Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:95902
+2018-06-21T16:32:10.969Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:95916
+2018-06-21T16:33:04.319Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:95925
+2018-06-21T16:33:04.322Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:95927
+2018-06-21T16:33:04.323Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:95928
+2018-06-21T16:33:04.323Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:95929
+2018-06-21T16:33:04.323Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:95930
+2018-06-21T16:33:04.324Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:95931
+2018-06-21T16:33:04.324Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:95932
+2018-06-21T16:33:04.325Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:95933
+2018-06-21T16:33:04.325Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:95934
+2018-06-21T16:33:07.076Z - normal: Compiled project javascript file successfully
+2018-06-21T16:33:07.077Z - normal: Start building assets
+2018-06-21T16:33:07.077Z - normal: Start spawn build-worker
+2018-06-21T16:33:08.489Z - normal: Finish spawn build-worker
+2018-06-21T16:33:08.489Z - normal: Start init build-worker
+2018-06-21T16:33:11.382Z - normal: 1.9.2
+2018-06-21T16:33:11.530Z - normal: Finish init build-worker
+2018-06-21T16:33:11.530Z - normal: Start build-assets in worker
+2018-06-21T16:33:11.794Z - warn: Can not find particle texture in /Users/limin/PlanetImpact/assets/resources/particle_texture.png, plist: /Users/limin/PlanetImpact/assets/resources/StarAnimation.plist
+2018-06-21T16:33:12.568Z - normal: Finish build-assets in worker
+2018-06-21T16:33:12.573Z - normal: Finish building assets
+2018-06-21T16:33:12.959Z - normal: Start building raw assets
+2018-06-21T16:33:12.960Z - normal: Start building plugin scripts
+2018-06-21T16:33:13.007Z - normal: Finish building raw assets
+2018-06-21T16:33:13.012Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-06-21T16:33:14.318Z - normal: Built to "/Users/limin/PlanetImpact/build/wechatgame" successfully
+2018-06-21T16:34:58.760Z - error: scene 没有保存，请先保存相关信息再进行构建。
+    at Editor.Ipc.sendToPanel (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/builder/panel/builder.js:1:14928)
+    at EventEmitter.ipcRenderer.on.n (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:4587)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+2018-06-21T16:35:02.613Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/limin/PlanetImpact/build",
+  "debug": false,
+  "dest": "/Users/limin/PlanetImpact/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.PlanetImpact",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6"
+  ],
+  "sourceMaps": false,
+  "startScene": "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6",
+  "template": "link",
+  "title": "PlanetImpact",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "subContext": "sub-game"
+  },
+  "xxteaKey": "5947e331-7d2c-4b",
+  "zipCompressJs": true,
+  "project": "/Users/limin/PlanetImpact",
+  "projectName": "PlanetImpact",
+  "debugBuildWorker": false
+}
+2018-06-21T16:35:02.626Z - normal: Building /Users/limin/PlanetImpact
+2018-06-21T16:35:02.626Z - normal: Destination /Users/limin/PlanetImpact/build/wechatgame
+2018-06-21T16:35:02.628Z - normal: Delete /Users/limin/PlanetImpact/build/wechatgame/**/*
+2018-06-21T16:36:42.511Z - normal: Compiled project javascript file successfully
+2018-06-21T16:36:42.513Z - normal: Start building assets
+2018-06-21T16:36:42.513Z - normal: Start spawn build-worker
+2018-06-21T16:36:43.338Z - normal: Finish spawn build-worker
+2018-06-21T16:36:43.339Z - normal: Start init build-worker
+2018-06-21T16:36:46.069Z - normal: 1.9.2
+2018-06-21T16:36:46.221Z - normal: Finish init build-worker
+2018-06-21T16:36:46.221Z - normal: Start build-assets in worker
+2018-06-21T16:36:46.475Z - warn: Can not find particle texture in /Users/limin/PlanetImpact/assets/resources/particle_texture.png, plist: /Users/limin/PlanetImpact/assets/resources/StarAnimation.plist
+2018-06-21T16:36:46.659Z - normal: Finish build-assets in worker
+2018-06-21T16:36:46.662Z - normal: Finish building assets
+2018-06-21T16:36:46.677Z - normal: Start building raw assets
+2018-06-21T16:36:46.678Z - normal: Start building plugin scripts
+2018-06-21T16:36:46.783Z - normal: Finish building raw assets
+2018-06-21T16:36:46.788Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-06-21T16:36:48.249Z - normal: Built to "/Users/limin/PlanetImpact/build/wechatgame" successfully
+2018-06-21T16:39:40.630Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/limin/PlanetImpact/build",
+  "debug": false,
+  "dest": "/Users/limin/PlanetImpact/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.PlanetImpact",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6"
+  ],
+  "sourceMaps": false,
+  "startScene": "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6",
+  "template": "link",
+  "title": "PlanetImpact",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "subContext": "sub-game"
+  },
+  "xxteaKey": "5947e331-7d2c-4b",
+  "zipCompressJs": true,
+  "project": "/Users/limin/PlanetImpact",
+  "projectName": "PlanetImpact",
+  "debugBuildWorker": false
+}
+2018-06-21T16:39:40.647Z - normal: Building /Users/limin/PlanetImpact
+2018-06-21T16:39:40.647Z - normal: Destination /Users/limin/PlanetImpact/build/wechatgame
+2018-06-21T16:39:40.648Z - normal: Delete /Users/limin/PlanetImpact/build/wechatgame/**/*
+2018-06-21T16:41:17.494Z - normal: Compiled project javascript file successfully
+2018-06-21T16:41:17.496Z - normal: Start building assets
+2018-06-21T16:41:17.496Z - normal: Start spawn build-worker
+2018-06-21T16:41:18.338Z - normal: Finish spawn build-worker
+2018-06-21T16:41:18.338Z - normal: Start init build-worker
+2018-06-21T16:41:21.001Z - normal: 1.9.2
+2018-06-21T16:41:21.153Z - normal: Finish init build-worker
+2018-06-21T16:41:21.153Z - normal: Start build-assets in worker
+2018-06-21T16:41:21.389Z - warn: Can not find particle texture in /Users/limin/PlanetImpact/assets/resources/particle_texture.png, plist: /Users/limin/PlanetImpact/assets/resources/StarAnimation.plist
+2018-06-21T16:41:21.526Z - normal: Finish build-assets in worker
+2018-06-21T16:41:21.530Z - normal: Finish building assets
+2018-06-21T16:41:21.546Z - normal: Start building raw assets
+2018-06-21T16:41:21.547Z - normal: Start building plugin scripts
+2018-06-21T16:41:21.614Z - normal: Finish building raw assets
+2018-06-21T16:41:21.619Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-06-21T16:41:22.864Z - normal: Built to "/Users/limin/PlanetImpact/build/wechatgame" successfully
+2018-06-21T16:43:47.793Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/limin/PlanetImpact/build",
+  "debug": false,
+  "dest": "/Users/limin/PlanetImpact/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.PlanetImpact",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6"
+  ],
+  "sourceMaps": false,
+  "startScene": "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6",
+  "template": "link",
+  "title": "PlanetImpact",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "subContext": "sub-game"
+  },
+  "xxteaKey": "5947e331-7d2c-4b",
+  "zipCompressJs": true,
+  "project": "/Users/limin/PlanetImpact",
+  "projectName": "PlanetImpact",
+  "debugBuildWorker": false
+}
+2018-06-21T16:43:47.809Z - normal: Building /Users/limin/PlanetImpact
+2018-06-21T16:43:47.809Z - normal: Destination /Users/limin/PlanetImpact/build/wechatgame
+2018-06-21T16:43:47.811Z - normal: Delete /Users/limin/PlanetImpact/build/wechatgame/**/*
+2018-06-21T16:45:32.822Z - normal: Load worker timeout, reload worker.
+2018-06-21T16:45:35.137Z - normal: Compiled project javascript file successfully
+2018-06-21T16:45:35.137Z - normal: Start building assets
+2018-06-21T16:45:35.138Z - normal: Start spawn build-worker
+2018-06-21T16:45:35.947Z - normal: Finish spawn build-worker
+2018-06-21T16:45:35.947Z - normal: Start init build-worker
+2018-06-21T16:45:38.670Z - normal: 1.9.2
+2018-06-21T16:45:38.898Z - normal: Finish init build-worker
+2018-06-21T16:45:38.898Z - normal: Start build-assets in worker
+2018-06-21T16:45:39.199Z - warn: Can not find particle texture in /Users/limin/PlanetImpact/assets/resources/particle_texture.png, plist: /Users/limin/PlanetImpact/assets/resources/StarAnimation.plist
+2018-06-21T16:45:39.331Z - normal: Finish build-assets in worker
+2018-06-21T16:45:39.342Z - normal: Finish building assets
+2018-06-21T16:45:39.360Z - normal: Start building raw assets
+2018-06-21T16:45:39.361Z - normal: Start building plugin scripts
+2018-06-21T16:45:39.420Z - normal: Finish building raw assets
+2018-06-21T16:45:39.425Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-06-21T16:45:40.848Z - normal: Built to "/Users/limin/PlanetImpact/build/wechatgame" successfully
+2018-06-22T12:59:26.359Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/limin/PlanetImpact/build",
+  "debug": false,
+  "dest": "/Users/limin/PlanetImpact/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.PlanetImpact",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6"
+  ],
+  "sourceMaps": false,
+  "startScene": "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6",
+  "template": "link",
+  "title": "PlanetImpact",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "subContext": "sub-game"
+  },
+  "xxteaKey": "5947e331-7d2c-4b",
+  "zipCompressJs": true,
+  "project": "/Users/limin/PlanetImpact",
+  "projectName": "PlanetImpact",
+  "debugBuildWorker": false
+}
+2018-06-22T12:59:26.367Z - normal: Building /Users/limin/PlanetImpact
+2018-06-22T12:59:26.367Z - normal: Destination /Users/limin/PlanetImpact/build/wechatgame
+2018-06-22T12:59:26.369Z - normal: Delete /Users/limin/PlanetImpact/build/wechatgame/**/*
+2018-06-22T13:01:11.248Z - normal: Compiled project javascript file successfully
+2018-06-22T13:01:11.250Z - normal: Start building assets
+2018-06-22T13:01:11.250Z - normal: Start spawn build-worker
+2018-06-22T13:01:12.373Z - normal: Finish spawn build-worker
+2018-06-22T13:01:12.373Z - normal: Start init build-worker
+2018-06-22T13:01:15.434Z - normal: 1.9.2
+2018-06-22T13:01:15.586Z - normal: Finish init build-worker
+2018-06-22T13:01:15.586Z - normal: Start build-assets in worker
+2018-06-22T13:01:15.853Z - warn: Can not find particle texture in /Users/limin/PlanetImpact/assets/resources/particle_texture.png, plist: /Users/limin/PlanetImpact/assets/resources/StarAnimation.plist
+2018-06-22T13:01:16.019Z - normal: Finish build-assets in worker
+2018-06-22T13:01:16.025Z - normal: Finish building assets
+2018-06-22T13:01:16.039Z - normal: Start building raw assets
+2018-06-22T13:01:16.040Z - normal: Start building plugin scripts
+2018-06-22T13:01:16.104Z - normal: Finish building raw assets
+2018-06-22T13:01:16.109Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-06-22T13:01:17.416Z - normal: Built to "/Users/limin/PlanetImpact/build/wechatgame" successfully
+2018-06-22T13:19:08.655Z - error: scene 没有保存，请先保存相关信息再进行构建。
+    at Editor.Ipc.sendToPanel (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/builder/panel/builder.js:1:14928)
+    at EventEmitter.ipcRenderer.on.n (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:4587)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+2018-06-22T13:19:12.960Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/limin/PlanetImpact/build",
+  "debug": false,
+  "dest": "/Users/limin/PlanetImpact/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.PlanetImpact",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6"
+  ],
+  "sourceMaps": false,
+  "startScene": "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6",
+  "template": "link",
+  "title": "PlanetImpact",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "subContext": "sub-game"
+  },
+  "xxteaKey": "5947e331-7d2c-4b",
+  "zipCompressJs": true,
+  "project": "/Users/limin/PlanetImpact",
+  "projectName": "PlanetImpact",
+  "debugBuildWorker": false
+}
+2018-06-22T13:19:12.974Z - normal: Building /Users/limin/PlanetImpact
+2018-06-22T13:19:12.974Z - normal: Destination /Users/limin/PlanetImpact/build/wechatgame
+2018-06-22T13:19:12.975Z - normal: Delete /Users/limin/PlanetImpact/build/wechatgame/**/*
+2018-06-22T13:20:56.652Z - normal: Compiled project javascript file successfully
+2018-06-22T13:20:56.654Z - normal: Start building assets
+2018-06-22T13:20:56.654Z - normal: Start spawn build-worker
+2018-06-22T13:20:57.679Z - normal: Finish spawn build-worker
+2018-06-22T13:20:57.680Z - normal: Start init build-worker
+2018-06-22T13:21:01.105Z - normal: 1.9.2
+2018-06-22T13:21:01.260Z - normal: Finish init build-worker
+2018-06-22T13:21:01.260Z - normal: Start build-assets in worker
+2018-06-22T13:21:01.530Z - warn: Can not find particle texture in /Users/limin/PlanetImpact/assets/resources/particle_texture.png, plist: /Users/limin/PlanetImpact/assets/resources/StarAnimation.plist
+2018-06-22T13:21:01.744Z - normal: Finish build-assets in worker
+2018-06-22T13:21:01.747Z - normal: Finish building assets
+2018-06-22T13:21:01.761Z - normal: Start building raw assets
+2018-06-22T13:21:01.762Z - normal: Start building plugin scripts
+2018-06-22T13:21:01.822Z - normal: Finish building raw assets
+2018-06-22T13:21:01.828Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-06-22T13:21:03.345Z - normal: Built to "/Users/limin/PlanetImpact/build/wechatgame" successfully
+2018-06-22T13:21:14.329Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/limin/PlanetImpact/build",
+  "debug": false,
+  "dest": "/Users/limin/PlanetImpact/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.PlanetImpact",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6"
+  ],
+  "sourceMaps": false,
+  "startScene": "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6",
+  "template": "link",
+  "title": "PlanetImpact",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "subContext": "SubGame"
+  },
+  "xxteaKey": "5947e331-7d2c-4b",
+  "zipCompressJs": true,
+  "project": "/Users/limin/PlanetImpact",
+  "projectName": "PlanetImpact",
+  "debugBuildWorker": false
+}
+2018-06-22T13:21:14.341Z - normal: Building /Users/limin/PlanetImpact
+2018-06-22T13:21:14.341Z - normal: Destination /Users/limin/PlanetImpact/build/wechatgame
+2018-06-22T13:21:14.342Z - normal: Delete /Users/limin/PlanetImpact/build/wechatgame/**/*
+2018-06-22T13:21:17.135Z - normal: Compiled project javascript file successfully
+2018-06-22T13:21:17.136Z - normal: Start building assets
+2018-06-22T13:21:17.136Z - normal: Start spawn build-worker
+2018-06-22T13:21:18.228Z - normal: Finish spawn build-worker
+2018-06-22T13:21:18.228Z - normal: Start init build-worker
+2018-06-22T13:21:21.373Z - normal: 1.9.2
+2018-06-22T13:21:21.527Z - normal: Finish init build-worker
+2018-06-22T13:21:21.527Z - normal: Start build-assets in worker
+2018-06-22T13:21:21.797Z - warn: Can not find particle texture in /Users/limin/PlanetImpact/assets/resources/particle_texture.png, plist: /Users/limin/PlanetImpact/assets/resources/StarAnimation.plist
+2018-06-22T13:21:21.941Z - normal: Finish build-assets in worker
+2018-06-22T13:21:21.945Z - normal: Finish building assets
+2018-06-22T13:21:21.954Z - normal: Start building raw assets
+2018-06-22T13:21:21.954Z - normal: Start building plugin scripts
+2018-06-22T13:21:22.002Z - normal: Finish building raw assets
+2018-06-22T13:21:22.013Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-06-22T13:21:23.753Z - normal: Built to "/Users/limin/PlanetImpact/build/wechatgame" successfully
+2018-06-22T13:24:48.601Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/limin/PlanetImpact/build",
+  "debug": false,
+  "dest": "/Users/limin/PlanetImpact/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.PlanetImpact",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6"
+  ],
+  "sourceMaps": false,
+  "startScene": "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6",
+  "template": "link",
+  "title": "PlanetImpact",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "subContext": "SubGame"
+  },
+  "xxteaKey": "5947e331-7d2c-4b",
+  "zipCompressJs": true,
+  "project": "/Users/limin/PlanetImpact",
+  "projectName": "PlanetImpact",
+  "debugBuildWorker": false
+}
+2018-06-22T13:24:48.617Z - normal: Building /Users/limin/PlanetImpact
+2018-06-22T13:24:48.617Z - normal: Destination /Users/limin/PlanetImpact/build/wechatgame
+2018-06-22T13:24:48.618Z - normal: Delete /Users/limin/PlanetImpact/build/wechatgame/**/*
+2018-06-22T13:26:29.592Z - normal: Compiled project javascript file successfully
+2018-06-22T13:26:29.594Z - normal: Start building assets
+2018-06-22T13:26:29.594Z - normal: Start spawn build-worker
+2018-06-22T13:26:30.517Z - normal: Finish spawn build-worker
+2018-06-22T13:26:30.517Z - normal: Start init build-worker
+2018-06-22T13:26:33.240Z - normal: 1.9.2
+2018-06-22T13:26:33.415Z - normal: Finish init build-worker
+2018-06-22T13:26:33.415Z - normal: Start build-assets in worker
+2018-06-22T13:26:33.665Z - warn: Can not find particle texture in /Users/limin/PlanetImpact/assets/resources/particle_texture.png, plist: /Users/limin/PlanetImpact/assets/resources/StarAnimation.plist
+2018-06-22T13:26:33.816Z - normal: Finish build-assets in worker
+2018-06-22T13:26:33.826Z - normal: Finish building assets
+2018-06-22T13:26:33.840Z - normal: Start building raw assets
+2018-06-22T13:26:33.841Z - normal: Start building plugin scripts
+2018-06-22T13:26:33.899Z - normal: Finish building raw assets
+2018-06-22T13:26:33.906Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-06-22T13:26:35.332Z - normal: Built to "/Users/limin/PlanetImpact/build/wechatgame" successfully
+2018-06-22T13:26:37.319Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/limin/PlanetImpact/build",
+  "debug": false,
+  "dest": "/Users/limin/PlanetImpact/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.PlanetImpact",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6"
+  ],
+  "sourceMaps": false,
+  "startScene": "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6",
+  "template": "link",
+  "title": "PlanetImpact",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "subContext": "SubGame"
+  },
+  "xxteaKey": "5947e331-7d2c-4b",
+  "zipCompressJs": true,
+  "project": "/Users/limin/PlanetImpact",
+  "projectName": "PlanetImpact",
+  "debugBuildWorker": false
+}
+2018-06-22T13:26:37.331Z - normal: Building /Users/limin/PlanetImpact
+2018-06-22T13:26:37.331Z - normal: Destination /Users/limin/PlanetImpact/build/wechatgame
+2018-06-22T13:26:37.332Z - normal: Delete /Users/limin/PlanetImpact/build/wechatgame/**/*
+2018-06-22T13:26:40.182Z - normal: Compiled project javascript file successfully
+2018-06-22T13:26:40.182Z - normal: Start building assets
+2018-06-22T13:26:40.182Z - normal: Start spawn build-worker
+2018-06-22T13:26:41.114Z - normal: Finish spawn build-worker
+2018-06-22T13:26:41.114Z - normal: Start init build-worker
+2018-06-22T13:26:44.077Z - normal: 1.9.2
+2018-06-22T13:26:44.226Z - normal: Finish init build-worker
+2018-06-22T13:26:44.227Z - normal: Start build-assets in worker
+2018-06-22T13:26:44.461Z - warn: Can not find particle texture in /Users/limin/PlanetImpact/assets/resources/particle_texture.png, plist: /Users/limin/PlanetImpact/assets/resources/StarAnimation.plist
+2018-06-22T13:26:44.620Z - normal: Finish build-assets in worker
+2018-06-22T13:26:44.623Z - normal: Finish building assets
+2018-06-22T13:26:44.630Z - normal: Start building raw assets
+2018-06-22T13:26:44.631Z - normal: Start building plugin scripts
+2018-06-22T13:26:44.677Z - normal: Finish building raw assets
+2018-06-22T13:26:44.680Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-06-22T13:26:45.787Z - normal: Built to "/Users/limin/PlanetImpact/build/wechatgame" successfully
+2018-06-22T13:28:25.680Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/limin/PlanetImpact/build",
+  "debug": false,
+  "dest": "/Users/limin/PlanetImpact/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.PlanetImpact",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6"
+  ],
+  "sourceMaps": false,
+  "startScene": "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6",
+  "template": "link",
+  "title": "PlanetImpact",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "subContext": "SubGame"
+  },
+  "xxteaKey": "5947e331-7d2c-4b",
+  "zipCompressJs": true,
+  "project": "/Users/limin/PlanetImpact",
+  "projectName": "PlanetImpact",
+  "debugBuildWorker": false
+}
+2018-06-22T13:28:25.749Z - normal: Building /Users/limin/PlanetImpact
+2018-06-22T13:28:25.749Z - normal: Destination /Users/limin/PlanetImpact/build/wechatgame
+2018-06-22T13:28:25.751Z - normal: Delete /Users/limin/PlanetImpact/build/wechatgame/**/*
+2018-06-22T13:30:05.558Z - normal: Compiled project javascript file successfully
+2018-06-22T13:30:05.560Z - normal: Start building assets
+2018-06-22T13:30:05.560Z - normal: Start spawn build-worker
+2018-06-22T13:30:06.468Z - normal: Finish spawn build-worker
+2018-06-22T13:30:06.469Z - normal: Start init build-worker
+2018-06-22T13:30:09.146Z - normal: 1.9.2
+2018-06-22T13:30:09.282Z - normal: Finish init build-worker
+2018-06-22T13:30:09.282Z - normal: Start build-assets in worker
+2018-06-22T13:30:09.522Z - warn: Can not find particle texture in /Users/limin/PlanetImpact/assets/resources/particle_texture.png, plist: /Users/limin/PlanetImpact/assets/resources/StarAnimation.plist
+2018-06-22T13:30:09.686Z - normal: Finish build-assets in worker
+2018-06-22T13:30:09.690Z - normal: Finish building assets
+2018-06-22T13:30:09.704Z - normal: Start building raw assets
+2018-06-22T13:30:09.707Z - normal: Start building plugin scripts
+2018-06-22T13:30:09.921Z - normal: Finish building raw assets
+2018-06-22T13:30:09.926Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-06-22T13:30:11.212Z - normal: Built to "/Users/limin/PlanetImpact/build/wechatgame" successfully
+2018-06-22T13:32:09.899Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/limin/PlanetImpact/build",
+  "debug": false,
+  "dest": "/Users/limin/PlanetImpact/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.PlanetImpact",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6"
+  ],
+  "sourceMaps": false,
+  "startScene": "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6",
+  "template": "link",
+  "title": "PlanetImpact",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "subContext": "SubGame"
+  },
+  "xxteaKey": "5947e331-7d2c-4b",
+  "zipCompressJs": true,
+  "project": "/Users/limin/PlanetImpact",
+  "projectName": "PlanetImpact",
+  "debugBuildWorker": false
+}
+2018-06-22T13:32:09.915Z - normal: Building /Users/limin/PlanetImpact
+2018-06-22T13:32:09.915Z - normal: Destination /Users/limin/PlanetImpact/build/wechatgame
+2018-06-22T13:32:09.918Z - normal: Delete /Users/limin/PlanetImpact/build/wechatgame/**/*
+2018-06-22T13:33:45.674Z - normal: Compiled project javascript file successfully
+2018-06-22T13:33:45.677Z - normal: Start building assets
+2018-06-22T13:33:45.677Z - normal: Start spawn build-worker
+2018-06-22T13:33:46.579Z - normal: Finish spawn build-worker
+2018-06-22T13:33:46.579Z - normal: Start init build-worker
+2018-06-22T13:33:49.199Z - normal: 1.9.2
+2018-06-22T13:33:49.346Z - normal: Finish init build-worker
+2018-06-22T13:33:49.346Z - normal: Start build-assets in worker
+2018-06-22T13:33:49.607Z - warn: Can not find particle texture in /Users/limin/PlanetImpact/assets/resources/particle_texture.png, plist: /Users/limin/PlanetImpact/assets/resources/StarAnimation.plist
+2018-06-22T13:33:49.724Z - normal: Finish build-assets in worker
+2018-06-22T13:33:49.727Z - normal: Finish building assets
+2018-06-22T13:33:49.740Z - normal: Start building raw assets
+2018-06-22T13:33:49.743Z - normal: Start building plugin scripts
+2018-06-22T13:33:49.802Z - normal: Finish building raw assets
+2018-06-22T13:33:49.806Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-06-22T13:33:51.075Z - normal: Built to "/Users/limin/PlanetImpact/build/wechatgame" successfully
+2018-06-22T14:06:31.583Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/limin/PlanetImpact/build",
+  "debug": false,
+  "dest": "/Users/limin/PlanetImpact/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.PlanetImpact",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6"
+  ],
+  "sourceMaps": false,
+  "startScene": "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6",
+  "template": "link",
+  "title": "PlanetImpact",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "subContext": "SubGame"
+  },
+  "xxteaKey": "5947e331-7d2c-4b",
+  "zipCompressJs": true,
+  "project": "/Users/limin/PlanetImpact",
+  "projectName": "PlanetImpact",
+  "debugBuildWorker": false
+}
+2018-06-22T14:06:31.600Z - normal: Building /Users/limin/PlanetImpact
+2018-06-22T14:06:31.600Z - normal: Destination /Users/limin/PlanetImpact/build/wechatgame
+2018-06-22T14:06:31.601Z - normal: Delete /Users/limin/PlanetImpact/build/wechatgame/**/*
+2018-06-22T14:08:07.816Z - normal: Compiled project javascript file successfully
+2018-06-22T14:08:07.817Z - normal: Start building assets
+2018-06-22T14:08:07.818Z - normal: Start spawn build-worker
+2018-06-22T14:08:08.720Z - normal: Finish spawn build-worker
+2018-06-22T14:08:08.720Z - normal: Start init build-worker
+2018-06-22T14:08:11.334Z - normal: 1.9.2
+2018-06-22T14:08:11.489Z - normal: Finish init build-worker
+2018-06-22T14:08:11.489Z - normal: Start build-assets in worker
+2018-06-22T14:08:11.725Z - warn: Can not find particle texture in /Users/limin/PlanetImpact/assets/resources/particle_texture.png, plist: /Users/limin/PlanetImpact/assets/resources/StarAnimation.plist
+2018-06-22T14:08:11.983Z - normal: Finish build-assets in worker
+2018-06-22T14:08:11.986Z - normal: Finish building assets
+2018-06-22T14:08:12.002Z - normal: Start building raw assets
+2018-06-22T14:08:12.004Z - normal: Start building plugin scripts
+2018-06-22T14:08:12.105Z - normal: Finish building raw assets
+2018-06-22T14:08:12.110Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-06-22T14:08:13.476Z - normal: Built to "/Users/limin/PlanetImpact/build/wechatgame" successfully
+2018-06-22T14:13:12.655Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/limin/PlanetImpact/build",
+  "debug": false,
+  "dest": "/Users/limin/PlanetImpact/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.PlanetImpact",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6"
+  ],
+  "sourceMaps": false,
+  "startScene": "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6",
+  "template": "link",
+  "title": "PlanetImpact",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "subContext": "SubGame"
+  },
+  "xxteaKey": "5947e331-7d2c-4b",
+  "zipCompressJs": true,
+  "project": "/Users/limin/PlanetImpact",
+  "projectName": "PlanetImpact",
+  "debugBuildWorker": false
+}
+2018-06-22T14:13:12.661Z - normal: Building /Users/limin/PlanetImpact
+2018-06-22T14:13:12.661Z - normal: Destination /Users/limin/PlanetImpact/build/wechatgame
+2018-06-22T14:13:12.663Z - normal: Delete /Users/limin/PlanetImpact/build/wechatgame/**/*
+2018-06-22T14:14:51.792Z - normal: Compiled project javascript file successfully
+2018-06-22T14:14:51.794Z - normal: Start building assets
+2018-06-22T14:14:51.794Z - normal: Start spawn build-worker
+2018-06-22T14:14:52.673Z - normal: Finish spawn build-worker
+2018-06-22T14:14:52.673Z - normal: Start init build-worker
+2018-06-22T14:14:55.762Z - normal: 1.9.2
+2018-06-22T14:14:55.899Z - normal: Finish init build-worker
+2018-06-22T14:14:55.900Z - normal: Start build-assets in worker
+2018-06-22T14:14:56.119Z - warn: Can not find particle texture in /Users/limin/PlanetImpact/assets/resources/particle_texture.png, plist: /Users/limin/PlanetImpact/assets/resources/StarAnimation.plist
+2018-06-22T14:14:56.269Z - normal: Finish build-assets in worker
+2018-06-22T14:14:56.274Z - normal: Finish building assets
+2018-06-22T14:14:56.291Z - normal: Start building raw assets
+2018-06-22T14:14:56.292Z - normal: Start building plugin scripts
+2018-06-22T14:14:56.373Z - normal: Finish building raw assets
+2018-06-22T14:14:56.392Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-06-22T14:14:57.849Z - normal: Built to "/Users/limin/PlanetImpact/build/wechatgame" successfully
+2018-06-22T14:18:51.756Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/limin/PlanetImpact/build",
+  "debug": false,
+  "dest": "/Users/limin/PlanetImpact/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.PlanetImpact",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6"
+  ],
+  "sourceMaps": false,
+  "startScene": "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6",
+  "template": "link",
+  "title": "PlanetImpact",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "subContext": "SubGame"
+  },
+  "xxteaKey": "5947e331-7d2c-4b",
+  "zipCompressJs": true,
+  "project": "/Users/limin/PlanetImpact",
+  "projectName": "PlanetImpact",
+  "debugBuildWorker": false
+}
+2018-06-22T14:18:51.771Z - normal: Building /Users/limin/PlanetImpact
+2018-06-22T14:18:51.771Z - normal: Destination /Users/limin/PlanetImpact/build/wechatgame
+2018-06-22T14:18:51.773Z - normal: Delete /Users/limin/PlanetImpact/build/wechatgame/**/*
+2018-06-22T14:20:30.130Z - normal: Compiled project javascript file successfully
+2018-06-22T14:20:30.132Z - normal: Start building assets
+2018-06-22T14:20:30.132Z - normal: Start spawn build-worker
+2018-06-22T14:20:30.941Z - normal: Finish spawn build-worker
+2018-06-22T14:20:30.941Z - normal: Start init build-worker
+2018-06-22T14:20:33.559Z - normal: 1.9.2
+2018-06-22T14:20:33.697Z - normal: Finish init build-worker
+2018-06-22T14:20:33.697Z - normal: Start build-assets in worker
+2018-06-22T14:20:33.965Z - warn: Can not find particle texture in /Users/limin/PlanetImpact/assets/resources/particle_texture.png, plist: /Users/limin/PlanetImpact/assets/resources/StarAnimation.plist
+2018-06-22T14:20:34.188Z - normal: Finish build-assets in worker
+2018-06-22T14:20:34.195Z - normal: Finish building assets
+2018-06-22T14:20:34.210Z - normal: Start building raw assets
+2018-06-22T14:20:34.211Z - normal: Start building plugin scripts
+2018-06-22T14:20:34.269Z - normal: Finish building raw assets
+2018-06-22T14:20:34.273Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-06-22T14:20:35.785Z - normal: Built to "/Users/limin/PlanetImpact/build/wechatgame" successfully
+2018-06-22T14:31:34.762Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/limin/PlanetImpact/build",
+  "debug": false,
+  "dest": "/Users/limin/PlanetImpact/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.PlanetImpact",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6"
+  ],
+  "sourceMaps": false,
+  "startScene": "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6",
+  "template": "link",
+  "title": "PlanetImpact",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "subContext": "SubGame"
+  },
+  "xxteaKey": "5947e331-7d2c-4b",
+  "zipCompressJs": true,
+  "project": "/Users/limin/PlanetImpact",
+  "projectName": "PlanetImpact",
+  "debugBuildWorker": false
+}
+2018-06-22T14:31:34.776Z - normal: Building /Users/limin/PlanetImpact
+2018-06-22T14:31:34.777Z - normal: Destination /Users/limin/PlanetImpact/build/wechatgame
+2018-06-22T14:31:34.778Z - normal: Delete /Users/limin/PlanetImpact/build/wechatgame/**/*
+2018-06-22T14:32:14.670Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:225642
+2018-06-22T14:33:11.623Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:225653
+2018-06-22T14:33:11.632Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:225654
+2018-06-22T14:33:11.632Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:225655
+2018-06-22T14:33:11.633Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:225656
+2018-06-22T14:33:11.634Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:225657
+2018-06-22T14:33:11.638Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:225658
+2018-06-22T14:33:11.639Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:225659
+2018-06-22T14:33:11.640Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:225660
+2018-06-22T14:33:11.640Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:225661
+2018-06-22T14:33:11.642Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:225662
+2018-06-22T14:33:14.750Z - normal: Compiled project javascript file successfully
+2018-06-22T14:33:14.751Z - normal: Start building assets
+2018-06-22T14:33:14.751Z - normal: Start spawn build-worker
+2018-06-22T14:33:16.019Z - normal: Finish spawn build-worker
+2018-06-22T14:33:16.019Z - normal: Start init build-worker
+2018-06-22T14:33:19.135Z - normal: 1.9.2
+2018-06-22T14:33:19.277Z - normal: Finish init build-worker
+2018-06-22T14:33:19.277Z - normal: Start build-assets in worker
+2018-06-22T14:33:19.607Z - warn: Can not find particle texture in /Users/limin/PlanetImpact/assets/resources/particle_texture.png, plist: /Users/limin/PlanetImpact/assets/resources/StarAnimation.plist
+2018-06-22T14:33:19.724Z - normal: Finish build-assets in worker
+2018-06-22T14:33:19.727Z - normal: Finish building assets
+2018-06-22T14:33:19.742Z - normal: Start building raw assets
+2018-06-22T14:33:19.743Z - normal: Start building plugin scripts
+2018-06-22T14:33:19.808Z - normal: Finish building raw assets
+2018-06-22T14:33:19.815Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-06-22T14:33:21.278Z - normal: Built to "/Users/limin/PlanetImpact/build/wechatgame" successfully
+2018-06-22T14:45:42.495Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/limin/PlanetImpact/build",
+  "debug": false,
+  "dest": "/Users/limin/PlanetImpact/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.PlanetImpact",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6"
+  ],
+  "sourceMaps": false,
+  "startScene": "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6",
+  "template": "link",
+  "title": "PlanetImpact",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "subContext": "SubGame"
+  },
+  "xxteaKey": "5947e331-7d2c-4b",
+  "zipCompressJs": true,
+  "project": "/Users/limin/PlanetImpact",
+  "projectName": "PlanetImpact",
+  "debugBuildWorker": false
+}
+2018-06-22T14:45:42.500Z - normal: Building /Users/limin/PlanetImpact
+2018-06-22T14:45:42.501Z - normal: Destination /Users/limin/PlanetImpact/build/wechatgame
+2018-06-22T14:45:42.502Z - normal: Delete /Users/limin/PlanetImpact/build/wechatgame/**/*
+2018-06-22T14:47:18.712Z - normal: Compiled project javascript file successfully
+2018-06-22T14:47:18.714Z - normal: Start building assets
+2018-06-22T14:47:18.714Z - normal: Start spawn build-worker
+2018-06-22T14:47:19.608Z - normal: Finish spawn build-worker
+2018-06-22T14:47:19.608Z - normal: Start init build-worker
+2018-06-22T14:47:22.246Z - normal: 1.9.2
+2018-06-22T14:47:22.393Z - normal: Finish init build-worker
+2018-06-22T14:47:22.393Z - normal: Start build-assets in worker
+2018-06-22T14:47:22.632Z - warn: Can not find particle texture in /Users/limin/PlanetImpact/assets/resources/particle_texture.png, plist: /Users/limin/PlanetImpact/assets/resources/StarAnimation.plist
+2018-06-22T14:47:22.759Z - normal: Finish build-assets in worker
+2018-06-22T14:47:22.762Z - normal: Finish building assets
+2018-06-22T14:47:22.776Z - normal: Start building raw assets
+2018-06-22T14:47:22.779Z - normal: Start building plugin scripts
+2018-06-22T14:47:22.837Z - normal: Finish building raw assets
+2018-06-22T14:47:22.841Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-06-22T14:47:24.203Z - normal: Built to "/Users/limin/PlanetImpact/build/wechatgame" successfully
+2018-06-22T14:55:42.376Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/limin/PlanetImpact/build",
+  "debug": false,
+  "dest": "/Users/limin/PlanetImpact/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.PlanetImpact",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6"
+  ],
+  "sourceMaps": false,
+  "startScene": "6ad3fba3-aaa4-4b8a-bd42-5cac3230a8c6",
+  "template": "link",
+  "title": "PlanetImpact",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "subContext": "SubGame"
+  },
+  "xxteaKey": "5947e331-7d2c-4b",
+  "zipCompressJs": true,
+  "project": "/Users/limin/PlanetImpact",
+  "projectName": "PlanetImpact",
+  "debugBuildWorker": false
+}
+2018-06-22T14:55:42.392Z - normal: Building /Users/limin/PlanetImpact
+2018-06-22T14:55:42.392Z - normal: Destination /Users/limin/PlanetImpact/build/wechatgame
+2018-06-22T14:55:42.394Z - normal: Delete /Users/limin/PlanetImpact/build/wechatgame/**/*
+2018-06-22T14:56:06.237Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:243396
+2018-06-22T14:56:22.778Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:243410
+2018-06-22T14:57:16.875Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:243419
+2018-06-22T14:57:16.877Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:243420
+2018-06-22T14:57:16.877Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:243421
+2018-06-22T14:57:16.878Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:243422
+2018-06-22T14:57:16.878Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:243423
+2018-06-22T14:57:16.878Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:243424
+2018-06-22T14:57:16.879Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:243425
+2018-06-22T14:57:16.879Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:243426
+2018-06-22T14:57:16.879Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:243427
+2018-06-22T14:57:19.444Z - normal: Compiled project javascript file successfully
+2018-06-22T14:57:19.444Z - normal: Start building assets
+2018-06-22T14:57:19.444Z - normal: Start spawn build-worker
+2018-06-22T14:57:20.399Z - normal: Finish spawn build-worker
+2018-06-22T14:57:20.399Z - normal: Start init build-worker
+2018-06-22T14:57:23.273Z - normal: 1.9.2
+2018-06-22T14:57:23.420Z - normal: Finish init build-worker
+2018-06-22T14:57:23.420Z - normal: Start build-assets in worker
+2018-06-22T14:57:23.655Z - warn: Can not find particle texture in /Users/limin/PlanetImpact/assets/resources/particle_texture.png, plist: /Users/limin/PlanetImpact/assets/resources/StarAnimation.plist
+2018-06-22T14:57:23.774Z - normal: Finish build-assets in worker
+2018-06-22T14:57:23.793Z - normal: Finish building assets
+2018-06-22T14:57:23.806Z - normal: Start building raw assets
+2018-06-22T14:57:23.807Z - normal: Start building plugin scripts
+2018-06-22T14:57:23.902Z - normal: Finish building raw assets
+2018-06-22T14:57:23.909Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-06-22T14:57:25.172Z - normal: Built to "/Users/limin/PlanetImpact/build/wechatgame" successfully
